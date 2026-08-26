@@ -1,0 +1,16 @@
+{
+  "name": "mailtea-webhooks-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Receive and verify Mailtea webhooks with Express.",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mailtea-sdk": "0.11.0"
+  }
+}
